@@ -1,5 +1,0 @@
-Now try to log in. You should receive the error, "Your account is not active." So far so good.
-
-Let's make a controller to handle our activations:
-
-script/generate controller activations new create

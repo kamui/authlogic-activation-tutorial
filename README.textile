@@ -1,6 +1,10 @@
 h2. Introduction
 
-This is an easier to read version of Matt Hooks' "Authlogic Activation Tutorial":http://github.com/matthooks/authlogic-activation-tutorial/tree/master. The tutorial is divided into a number of steps and walks through the process of implementing user activation functionality into your pre-existing Rails app using "Authlogic":http://github.com/binarylogic/authlogic/tree/master. If you are just starting out with Authlogic, be sure to checkout the "Authlogic Example Tutorial":http://github.com/binarylogic/authlogic_example/tree/master.
+This tutorial is divided into a number of steps and walks through the process of implementing user activation functionality into your pre-existing Rails app using "Authlogic":http://github.com/binarylogic/authlogic/tree/master. If you are just starting out with Authlogic, be sure to checkout the "Authlogic Example Tutorial":http://github.com/binarylogic/authlogic_example/tree/master.
+
+Just a reminder, *the code, as is, may not work with the most recent versions of Authlogic!*
+
+Thanks to "Clayton Lengel-Zigich":http://github.com/clayton for cleaning up the tutorial and making it easier to read!
 
 h2. Step 1
 
@@ -23,7 +27,7 @@ Let's begin by adding an 'active' field with a default of false to the user mode
 
 h2. Step 2
 
-Don't forget to run the migraiton.
+Don't forget to run the migration.
 
 @rake db:migrate@
 

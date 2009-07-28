@@ -1,1 +1,0 @@
-As the comment says, we don't need the Authlogic auto-login to take place so we save without maintaining the session. Now let's define the 'register' view.
