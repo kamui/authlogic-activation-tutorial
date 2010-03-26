@@ -132,6 +132,13 @@ Next, let's make sure our user gets an e-mail with his activation code when he s
   
 </pre>
 
+Note: I got a "Missing host to link to! Please provide :host parameter or set default_url_options[:host]" error when I tried this, so if you do to you will have to set the default_url_options in your environment.rb or environment config.
+
+<pre>
+  <!-- config/environments/development.rb -->
+  config.action_mailer.default_url_options = {:host => "binarylogic.com"}
+</pre>
+
 h2. Step 6
 
 Now let's modify the user create action:
